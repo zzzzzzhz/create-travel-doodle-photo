@@ -1,0 +1,13 @@
+interface:
+  display_name: 旅行涂鸦摄影
+  short_description: 生成写实摄影底图上的年轻旅行杂志手绘涂鸦拼贴风格图像
+  default_prompt: 使用 $create-travel-doodle-photo 将这段描述或上传照片制作成写实旅行杂志涂鸦拼贴图。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
